@@ -33,7 +33,8 @@ pip install -r requirements.txt
 ```
 
 **Create an API Key in the Falcon Console**
-``` In the console, left hand menu > Support and resources
+```
+In the console, left hand menu > Support and resources
 Create an API Key with the following scopes: [NGSIEM:read / write] [hosts:read]
 ```
 
