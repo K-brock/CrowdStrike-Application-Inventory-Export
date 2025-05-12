@@ -32,6 +32,11 @@ git clone https://github.com/K-brock/CrowdStrike-Application-Inventory-Export
 pip install -r requirements.txt
 ```
 
+**Create an API Key in the Falcon Console**
+``` In the console, left hand menu > Support and resources
+Create an API Key with the following scopes: [NGSIEM:read / write] [hosts:read]
+```
+
 **Create a `.env` file in the project directory with your CrowdStrike API credentials:**
 ```dotenv
 API_KEY='your_crowdstrike_client_id'
